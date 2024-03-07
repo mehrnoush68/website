@@ -1,0 +1,20 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Mehrnoush Website"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+        text: "CV"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+
